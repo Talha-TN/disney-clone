@@ -7,5 +7,4 @@ const HeaderItem = ({name,icon}) => {
     </nav>
   )
 }
-
 export default HeaderItem
