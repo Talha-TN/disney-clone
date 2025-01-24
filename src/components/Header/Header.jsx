@@ -14,7 +14,7 @@ const Header = () => {
             alt="logo"
             className="w-[82px] md:w-[115px] object-cover"
           />
-          <div className="flex gap-8 flex-wrap">
+          <div className="flex gap-8 flex-wrap ">
             {menu.map((data, index) => (
               <HeaderItem key={index} name={data.name} icon={data.icon} />
             ))}
